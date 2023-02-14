@@ -1,0 +1,400 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30vh  0 0 0 ;
+}
+
+.text{
+    font-family: 'Handlee', cursive;
+    color: #FFE5E9;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    padding: 8px 15px;
+    margin: 8px 4px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F39A9F, #EF687B);
+    box-shadow: inset -8px 0 8px rgba(209,166,172,0.15),
+    inset 0 -8px 8px rgba(0,0,0,0.25),
+    0 0 0 2px rgba(215,104,119,0.75),
+    10px 20px 25px rgba(182, 94, 106, 0.4);
+    overflow: hidden;
+    outline: none;
+    font: inherit;
+    box-decoration-break: inherit;
+    cursor: pointer;
+}
+
+.button::before {
+    content: 'Click to see it !';
+    color: #FFE5E9;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    position: absolute;
+    padding: 10px;
+    top: 4px;
+    left: 5px;
+    bottom: 11px;
+    right: 8px;
+    background: linear-gradient(90deg, #CD6674, #F39A9F);
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px rgba(252, 219, 219, 0.25),
+    10px 5px 10px rgba(210, 118, 127, 0.15);
+    border-left: 1px solid #CB737F;
+    border-bottom: 1px solid #D8828D;
+    border-top: 1px solid #ea8e9bc7;
+}
+
+.modal_hearts{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+}
+
+.heart_1, .heart_2, .heart_3, .heart_4, .heart_5,
+.heart_6, .heart_7, .heart_8, .heart_9, .heart_10,
+.heart_11, .heart_12, .heart_13, .heart_14, .heart_15,
+.heart_16, .heart_17, .heart_18{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*width: 30px;*/
+    height: 30px;
+    animation-duration: 2.5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    /*animation-fill-mode: forwards;*/
+    transition-timing-function: ease-out;
+    /*opacity: 0;*/
+    /*transition: opacity 3s;*/
+}
+
+.heart_1{
+    animation-name: heart_1;
+}
+
+@keyframes heart_1 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-10deg);*/
+    }
+    to {
+        transform:scale(5) translate(5%,-160%) rotate(10deg);
+    }
+}
+
+.heart_2{
+    animation-name: heart_2
+}
+
+@keyframes heart_2 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(10deg);*/
+    }
+    to {
+        transform: scale(8) translate(100%,-160%) rotate(-10deg);
+    }
+}
+
+.heart_3{
+    animation-name: heart_3
+}
+
+@keyframes heart_3 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-10deg);*/
+    }
+    to {
+        transform:scale(9) translate(217%,-95%) rotate(10deg);
+    }
+}
+
+.heart_4{
+    animation-name: heart_4
+}
+
+@keyframes heart_4 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(10deg);*/
+    }
+    to {
+        transform:scale(6) translate(190%) rotate(-10deg);
+    }
+}
+
+.heart_5{
+    animation-name: heart_5
+}
+
+@keyframes heart_5 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-20deg);*/
+    }
+    to {
+        transform:scale(8) translate(275%, 65%) rotate(20deg);
+    }
+}
+
+.heart_6{
+    animation-name: heart_6
+}
+
+@keyframes heart_6 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(3deg);*/
+    }
+    to {
+        transform: scale(9) translate(180%, 185%) rotate(-3deg);
+    }
+}
+
+.heart_7{
+    animation-name: heart_7
+}
+
+@keyframes heart_7 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-7deg);*/
+    }
+    to {
+        transform: scale(6) translate(90%,145%) rotate(-7deg);
+    }
+}
+
+.heart_8{
+    animation-name: heart_8
+}
+
+@keyframes heart_8 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-15deg);*/
+    }
+    to {
+        transform: scale(8) translate(85%, 250%) rotate(15deg);
+    }
+}
+.heart_9{
+    animation-name: heart_9
+}
+
+@keyframes heart_9 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(15deg);*/
+    }
+    to {
+        transform: scale(6) translate(-50%, 280%) rotate(-15deg);
+    }
+}
+
+.heart_10{
+    animation-name: heart_10
+}
+
+@keyframes heart_10 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-7deg);*/
+    }
+    to {
+        transform:scale(6) translate(-130%, 156%) rotate(7deg);
+    }
+}
+
+.heart_11{
+    animation-name: heart_11
+}
+
+@keyframes heart_11 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(12deg);*/
+    }
+    to {
+        transform:scale(9) translate(-220%, 165%) rotate(-12deg);
+    }
+}
+
+.heart_12{
+    animation-name: heart_12
+}
+
+@keyframes heart_12 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-8deg);*/
+    }
+    to {
+        transform:scale(4) translate(-340%, 90%) rotate(8deg);
+    }
+}
+
+.heart_13{
+    animation-name: heart_13
+}
+
+@keyframes heart_13 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(12deg);*/
+    }
+    to {
+        transform:scale(6) translate(-330%, -20%) rotate(-12deg);
+    }
+}
+
+.heart_14{
+    animation-name: heart_14
+}
+
+@keyframes heart_14 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(-11deg);*/
+    }
+    to {
+        transform:scale(7) translate(-345%, -145%) rotate(11deg);
+    }
+}
+
+.heart_15{
+    animation-name: heart_15
+}
+
+@keyframes heart_15 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(10deg);*/
+    }
+    to {
+        transform:scale(5) translate(-225%, -95%) rotate(-10deg);
+    }
+}
+
+.heart_16{
+    animation-name: heart_16
+}
+
+@keyframes heart_16 {
+    from {
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        /*transform: rotate(6deg);*/
+    }
+    to {
+        transform:scale(8) translate(-100%,-165%) rotate(-6deg);
+    }
+}
+
+

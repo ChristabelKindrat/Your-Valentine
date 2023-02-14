@@ -1,0 +1,55 @@
+@media screen and (min-width: 320px) and (max-width: 450px ) {
+    .text{
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .button {
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        padding: 8px 15px;
+        margin: 8px 4px;
+        border: none;
+        border-radius: 5px;
+        background: linear-gradient(180deg, #F39A9F, #EF687B);
+        box-shadow: inset -8px 0 8px rgba(209, 166, 172, 0.15),
+        inset 0 -8px 8px rgba(0, 0, 0, 0.25),
+        0 0 0 2px rgba(215, 104, 119, 0.75),
+        10px 20px 25px rgba(182, 94, 106, 0.4);
+    }
+
+    .button::before {
+        font-family: "Caveat", cursive;
+        font-size: 13px;
+        position: absolute;
+        padding: 5px;
+        top: 3px;
+        left: 4px;
+        bottom: 7px;
+        right: 6px;
+        border-radius: 5px;
+        box-shadow: -10px -10px 10px rgba(252, 219, 219, 0.25),
+        10px 5px 10px rgba(210, 118, 127, 0.15);
+        border-left: 1px solid #CB737F;
+        border-bottom: 1px solid #D8828D;
+        border-top: 1px solid #ea8e9bc7;
+    }
+
+    .modal_hearts{
+        position: fixed;
+        top: 41%;
+        left: 45%;
+    }
+
+    .svg_img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .copy_url{
+        width: 30px;
+        height: 30px;
+    }
+
+}

@@ -1,0 +1,13 @@
+.wrapper_asserts {
+    display: flex;
+    grid-gap: 15px;
+    padding: 10px 10px 60px 10px;
+}
+
+.copy_url {
+    cursor: pointer;
+    margin: 2px;
+}
+.copy_url:active, button:focus {
+    outline: none !important;
+}
