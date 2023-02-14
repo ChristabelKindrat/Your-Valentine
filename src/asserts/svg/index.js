@@ -4,6 +4,7 @@ import heart from './heart.svg';
 import heart_img from './heart_img.svg';
 import heart_screen from './heart_screen.svg'
 import telegram from './telegram.svg'
+import heart_png from './heart.png'
 
 export {
     linkedin,
@@ -11,5 +12,6 @@ export {
     heart,
     heart_img,
     heart_screen,
-    telegram
+    telegram,
+    heart_png
 };
