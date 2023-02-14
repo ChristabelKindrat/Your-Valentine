@@ -8,7 +8,7 @@ import '../../styles/media.css';
 function Footer() {
     return (
         <div className={'wrapper_asserts'}>
-            <TelegramShareButton url={"https://github.com/ChristabelKindrat"}>
+            <TelegramShareButton url={"https://your-valentine-ochre.vercel.app/"}>
                 <img src={telegram}
                      alt={'telegram'}
                      width={40}
